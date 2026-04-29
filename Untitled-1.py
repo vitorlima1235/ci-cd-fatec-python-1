@@ -1,3 +1,9 @@
+# =============================================================================
+# EXEMPLO 5: WEAK CRYPTOGRAPHY (CWE-327) 🟠 MEDIUM
+# =============================================================================
+# O CodeQL detectará uso de algoritmos de criptografia fracos
+
+
 import hashlib
 
 def hash_senha_vulneravel(senha):
